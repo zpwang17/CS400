@@ -56,3 +56,5 @@ const evaluate = str => {
 	
 	
 	}
+/// alert(evaluate('5*5')); output:25 ///
+/// alert(evaluate('51-7')); output:43 ///

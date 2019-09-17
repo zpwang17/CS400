@@ -13,7 +13,7 @@ const p31 = (str,charStr) => {
  return	arr;
 	
 	}
- //alert(p3('supercalifragilisticexpialidocious','c'));
+ //alert(p3('supercalifragilisticexpialidocious','c')); output: super, califragilisti, cexpialido, cious
  
  
  const p32 = (str) =>{
