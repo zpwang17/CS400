@@ -22,7 +22,13 @@ const evaluate = str => {
 	index=str.indexOf("%");
 	
 	computation='%';
-	}else{
+	
+	}
+	else if(str.indexOf("/")>0){
+		index = str.indexOf("/");
+	computation = '/';
+	}
+	else{
 	alert("error");
 	}
 	
@@ -46,6 +52,9 @@ const evaluate = str => {
 	break;
 	case '%':
 	result=num1%num2;
+	case '/':
+	result=num1/num2;
+	
 	break;
 	default:alert("str error");
 	
