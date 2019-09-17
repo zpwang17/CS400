@@ -9,7 +9,7 @@ const p31 = (str,charStr) => {
 	
 	}
 	
-	
+	 
  return	arr;
 	
 	}
