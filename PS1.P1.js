@@ -12,5 +12,5 @@ const p1 = str => {
   return str;
  }
 
- ///example: alert(p1('9, 38asupercalifragilisticexpialidocious')); output: aaaacccdeefgiiiiiiillloopprrssstuux 
+ ///example: alert(PS1.P1('9, 38asupercalifragilisticexpialidocious')); output: aaaacccdeefgiiiiiiillloopprrssstuux 
  
