@@ -1,0 +1,15 @@
+{
+  "name": "eee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install express --save"
+  },
+  "repository": {
+    "type": "git",
+    "url": "CS400"
+  },
+  "author": "",
+  "license": "ISC"
+}
