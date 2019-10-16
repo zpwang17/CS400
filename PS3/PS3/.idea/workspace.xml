@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="948fc01d-6ac0-4d79-a963-4daeec8beab5" name="Default" comment="" />
+    <list default="true" id="948fc01d-6ac0-4d79-a963-4daeec8beab5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +12,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1SFFQQ232UC04zWUvUv8E7BsPkC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -49,8 +59,8 @@
       <option name="presentableId" value="Default" />
       <updated>1570783103784</updated>
       <workItem from="1570783105491" duration="7622000" />
-      <workItem from="1571191340388" duration="11000" />
-      <workItem from="1571191420618" duration="191000" />
+      <workItem from="1571151438944" duration="350000" />
+      <workItem from="1571191280309" duration="39000" />
     </task>
     <servers />
   </component>
