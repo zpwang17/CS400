@@ -1,0 +1,27 @@
+<div style="text-align: center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+<div>
+
+  Please enter your IP:
+
+  <input type="text" value="123" [(ngModel)]="names"/>
+  <input type="button" value="query" (click)="query()"/>
+
+  <br/>
+
+  child to receive data from its parent for display:{{result}}<br/>
+
+
+  ngFor data:
+  <font color="red">{{result}}
+
+    <br/>
+  {{result}}<br/>
+  {{result}}<br/>
+  </font>
+
+
+</div>
