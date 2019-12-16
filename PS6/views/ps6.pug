@@ -1,0 +1,18 @@
+extends layout
+
+block content
+    P Using MongoDB as cache at address: #{MONGO_DB_ADDRESS}
+    form(method='post' action='/ps6/lookUp')
+        p Searching for city #{jsonContent.name}:
+        input(type='text' name = 'city_name' required='')
+        p
+        input(type='submit' value='Confirmed')
+
+    P Result
+    p City: #{jsonContent.name}
+    p Longtitude: #{jsonContent.coord.lon}, Latitude: #{jsonContent.coord.lat}
+    p Temperature Now: #{jsonContent.main.temp}
+    p Temperature Feel Like: #{jsonContent.main.feels_like}
+    p Temperature Min: #{jsonContent.main.temp_min}
+    p Temperature Max: #{jsonContent.main.temp_max}
+    p Response Type: #{responseType}
